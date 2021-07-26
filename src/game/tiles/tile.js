@@ -11,6 +11,18 @@ class Tile {
     getImageUrl() {
         return 'tile-basic.png';
     }
+
+    select() {
+        this.selected = true;
+        if (this.piece)
+            this.piece.highlighted = true;
+    }
+
+    deselect() {
+        this.selected = false;
+        if (this.piece)
+            this.piece.highlighted = false;
+    }
 }
 
 

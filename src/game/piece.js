@@ -5,6 +5,7 @@ class Piece {
         this.owner = owner;
         this.tile = tile;
         this.imageUrl = this.getImageUrl();
+        this.highlighted = false;
     }
 
     getImageUrl() {
