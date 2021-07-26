@@ -25,23 +25,9 @@ export default {
 </script>
 
 <style scoped>
-template {
-  /* padding: 0;
-  margin: 0; */
-}
-/* 
-img {
-  padding: 0px;
-  margin: 0px;
-} */
 
 #tile-container {
-  /* display: inline-block; */
   position: relative;
-  /* padding: 10; */
-  /* object-fit: cover; */
-  /* width: 100%; */
-  /* background-color: green; */
   top: 0;
 }
 

@@ -76,32 +76,15 @@ export default {
 }
 
 #tiles-table { 
-  /* position: relative; */
-  /* display: inline; */
   border-collapse: collapse;
   width: 100%;
   /* height: 100%; */
   /* padding: 0px;*/
 }
-tr>td {
-  /* display: row; */
-  /* border: 5px solid black; */
-  padding: 0;
-  /* padding-bottom: 0; */
-}
 td {
-  /* display: row; */
-  /* padding-left: 3px; */
-  /* padding-right: 3px; */
   padding: 0px;
   margin: 0px;
-  /* display: block; */
-  /* width: 100%; */
-  /*margin: 0px; */
-
-  /* padding-bottom: 0px; */
-  /* margin: 0px; */
-  /* margin: 100px; */
+  line-height:0; /*essential to remove padding!*/
   
 }
 </style>
